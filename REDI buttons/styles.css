@@ -1,0 +1,70 @@
+/* Content Row */ 
+
+.contentbox {
+    display: flex;
+    border: solid;
+    border-radius: 2px;
+    border-color: red;
+}
+
+.col {
+    border: dotted;
+    margin: 5px;
+    color: blue;
+    max-width: 33%;
+}
+
+#pebbles {
+    width: auto;
+    max-width: 530px;
+    overflow: hidden;
+}
+
+#pebbles2 {
+    max-width: 530px;
+    display: none;
+}
+
+.text {
+    text-align: center;
+    padding: 150px 0;
+}
+
+#hidden-text {
+    color: white;
+}
+
+.link {
+    text-align: center;
+    min-width: 500px;
+    padding: 150px 0;
+}
+
+#yahoo {
+    font-size: 1.5rem;
+}
+
+/*Buttons row */ 
+
+.buttonbox {
+    text-align: center;
+}
+
+.container {
+    display: inline-flex;
+}
+
+#button1 {
+    float: left;
+    margin: 200px;
+}
+
+#button2 {
+    margin: 200px 200px 200px 350px;
+}
+
+#button3 {
+    float: right;
+    margin: 200px 200px 200px 250px;
+
+}

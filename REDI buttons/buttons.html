@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BUTTONS!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="contentbox row">
+    <div class="picture col">
+        <h1>What will I do?</h1>
+        <img id="pebbles" src="pics/1564718.jpg" alt="">
+        <img id="pebbles2" src="pics/pebbles.jpg" alt="">
+  
+    </div>
+
+    <div class="text col">
+        <p id="show-text">Wow, this is some pretty cool <strong>TEXT!</strong>. I wonder what will happen to it if I click this button!</p>
+        <p id="hidden-text">OOOOOHHH! The text changed! Magnificent. Isn't this special?</p>
+    </div>
+
+    <div class="link col">
+        <p>This is a link to Google, right? Click the link, then click the button and the link again.</p>
+        <a href="http://www.google.dk"><p id="yahoo">Google</p></a>
+    </div>
+
+</div>
+<div class="buttonbox container row">
+    <div id="button1" class="col">
+        <button onclick="changePic()">Click me!</button>
+    </div>
+
+    <div id="button2" class="col">
+        <button ondblclick="changeText()">Click me!</button>
+    </div>
+
+    <div id="button3" class="col">
+        <button onclick="changeLink()">Click me!</button>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="buttons.js"></script>
+</body>
+</html>
